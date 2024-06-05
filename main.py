@@ -20,7 +20,7 @@ unit_price = st.sidebar.number_input('事務官単価（戸数×単価）', min_
 manager_rate = st.sidebar.number_input('管理員の時間単価 (円)', min_value=0, value=2000)
 cleaner_rate = st.sidebar.number_input('清掃員の時間単価 (円)', min_value=0, value=2000)
 cleaning_cost = st.sidebar.number_input('定期清掃の費用 (円、年間)', min_value=0, value=100000)
-elevator_cost = st.sidebar.number_input('エレベーターの費用 (円、年間)', min_value=0, value=70000)
+elevator_cost = st.sidebar.number_input('エレベーターの費用 (円、年間)', min_value=0, value=840000)
 pipe_cleaning_cost = st.sidebar.number_input('雑排水管洗浄の費用 (戸数×円、年間)', min_value=0, value=5000)
 reservoir_cost = st.sidebar.number_input('貯水槽の追加費用 (円、年間)', min_value=0, value=80000)
 rooftop_reservoir_cost = st.sidebar.number_input('屋上貯水槽の追加費用 (円、年間)', min_value=0, value=80000)
